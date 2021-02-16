@@ -1,0 +1,9 @@
+@for $i from 0 through 100  {
+  .fz-#{$i}{
+    font-size: ($i + 0px) !important
+  }
+
+  .rounded-#{$i}rem{
+    border-radius: ($i + 0rem);
+  }
+}
